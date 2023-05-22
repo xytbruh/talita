@@ -7,6 +7,7 @@
 }
 body {
   scroll-behavior: smooth;
+  background-color: #F3DBCD;
   font-family: "Montserrat", sans-serif;
 }
 a {
@@ -14,9 +15,7 @@ a {
   color: #000;
   transition: all 0.4s;
 }
-a:hover {
-  color: #f36b6f;
-}
+
 
 h1,
 h2,
@@ -58,7 +57,13 @@ p {
 .tombol {
   background-color: #f36b6f;
   border: none;
+  padding: 12px 20px;
+}
+.tombol2 {
+  background-color: #F3DBCD;
   padding: 10px;
+
+  border-radius: 10px;
 }
 nav {
   background-color: #f3dbcd;
@@ -79,9 +84,7 @@ nav .navbar-sosial li i {
 
 .home img {
   width: 100%;
-  height: 80vh;
   background-position: center;
-  background-size: cover;
 }
 .about {
   background-image: url(../../img/Group\ 29.png);
@@ -107,4 +110,76 @@ nav .navbar-sosial li i {
   color: #000;
   font-size: 17px;
   font-weight: bold;
+}
+.service{
+  background-color: #F3DBCD;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+.service h2{
+  text-align: center;
+  word-spacing: 2px;
+  font-weight: 600;
+}
+.service .service-wrap{
+  background-color: #f36b6f;
+  padding: 50px;
+  border-radius: 10px;
+}
+.gallery{
+  background-color: #F3DBCD;
+  height: auto;
+  width: 100%;
+}
+.gallery h2{
+  text-align: center;
+  word-spacing: 2px;
+}
+.gallery .gallery-wrap{
+  background-color: #f36b6f;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.gallery .gallery-wrap h1{
+  text-align: center;
+}
+
+
+
+.reviews{
+  background-image: url(../../img/WhatsApp\ Image\ 2023-05-20\ at\ 13.23\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;  
+}
+.reviews .reviews-wrap{
+  width: 100%;
+  height: auto;
+}
+.reviews  .card .card-body{
+  background-color: #F3DBCD;
+  text-align: center;
+
+}
+.contact{
+  background-color: #D6BBA7;
+  padding: 30px;
+  text-align: center;
+}
+.contact ul{
+  display: flex;
+}
+.contact ul li{
+  margin: 20px;
+  list-style: none;
+}
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
