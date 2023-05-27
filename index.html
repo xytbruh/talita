@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <img src="img/talitha 1.png" width="200px" alt="" />
         <button
@@ -32,25 +32,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto">
             <li class="nav-item">
-              <a class="active" aria-current="page" href="#">Home</a>
+              <a class="active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="" href="#">About</a>
+              <a class="" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="" href="#">Service</a>
+              <a class="" href="#service">Service</a>
             </li>
             <li class="nav-item">
-              <a class="" href="#">Gallery</a>
+              <a class="" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="" href="#">Reviews</a>
+              <a class="" href="#reviews">Reviews</a>
             </li>
+
             <li class="nav-item">
-              <a class="" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="#">Contact</a>
+              <a class="" href="#contact">Contact</a>
             </li>
           </ul>
           <ul class="navbar-sosial">
@@ -67,10 +65,10 @@
         </div>
       </div>
     </nav>
-    <section class="home">
+    <section class="home" id="home">
       <img src="img/IMG_7923 1.png" class="img-fluid" alt="" />
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <center>
         <button class="tombol">TALITHA</button>
       </center>
@@ -110,7 +108,7 @@
         </div>
       </div>
     </section>
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <hr />
         <h2>Price List</h2>
@@ -149,7 +147,7 @@
         <hr />
       </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="container">
         <h2>Gallery Talitha</h2>
         <center>
@@ -203,7 +201,7 @@
         <hr />
       </center>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
       <div class="container">
         <div class="owl-features owl-carousel owl-theme">
           <div class="item">
@@ -227,7 +225,7 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <h6>0813-2407-2027</h6>
         <h6>Majalengka | Jawa Barat</h6>
@@ -247,33 +245,6 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/blanter/design@master/blanter-owlcarousel.js"></script>
-    <script>
-      $(".owl-features").owlCarousel({
-        margin: 10,
-        loop: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-
-          1000: {
-            items: 1,
-          },
-        },
-      });
-      $(".owl-features1").owlCarousel({
-        margin: 10,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-
-          1000: {
-            items: 3,
-          },
-        },
-      });
-    </script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>

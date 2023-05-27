@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 
 * {
   padding: 0;
@@ -7,8 +8,8 @@
 }
 body {
   scroll-behavior: smooth;
-  background-color: #F3DBCD;
-  font-family: "Montserrat", sans-serif;
+  background-color: #f3dbcd;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -16,15 +17,14 @@ a {
   transition: all 0.4s;
 }
 
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 h1 {
@@ -60,13 +60,17 @@ p {
   padding: 12px 20px;
 }
 .tombol2 {
-  background-color: #F3DBCD;
+  background-color: #f3dbcd;
   padding: 10px;
 
   border-radius: 10px;
 }
 nav {
   background-color: #f3dbcd;
+  height: 80px;
+}
+.navbar-nav li a .active {
+  color: #f36b6f !important;
 }
 nav .navbar-nav li {
   margin: 20px;
@@ -103,106 +107,102 @@ nav .navbar-sosial li i {
   width: 100%;
   height: 100%;
   margin-bottom: 30px;
-  
 }
-.about ol li{
+.about ol li {
   color: #000;
   font-size: 17px;
   font-weight: bold;
 }
-.service{
-  background-color: #F3DBCD;
+.service {
+  background-color: #f3dbcd;
   width: 100%;
   height: auto;
   padding: 50px 0;
 }
-.service h2{
+.service h2 {
   text-align: center;
   word-spacing: 2px;
   font-weight: 600;
 }
-.service .service-wrap{
+.service .service-wrap {
   background-color: #f36b6f;
   padding: 50px;
   border-radius: 10px;
 }
 
-.gallery{
-  background-color: #F3DBCD;
+.gallery {
+  background-color: #f3dbcd;
   height: auto;
   width: 100%;
 }
-.gallery h2{
+.gallery h2 {
   text-align: center;
   word-spacing: 2px;
 }
-.gallery .gallery-wrap{
+.gallery .gallery-wrap {
   background-color: #f36b6f;
   padding: 30px;
   border-radius: 10px;
   margin: 20px;
 }
-.gallery .gallery-wrap h1{
+.gallery .gallery-wrap h1 {
   text-align: center;
 }
 
-
-
-.reviews{
+.reviews {
   background-image: url(../../img/WhatsApp\ Image\ 2023-05-20\ at\ 13.23\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  padding: 50px 0;  
+  padding: 50px 0;
 }
-.reviews .reviews-wrap{
+.reviews .reviews-wrap {
   width: 100%;
   height: auto;
 }
-.reviews  .card .card-body{
-  background-color: #F3DBCD;
+.reviews .card .card-body {
+  background-color: #f3dbcd;
   text-align: center;
-
 }
-.contact{
-  background-color: #D6BBA7;
+.contact {
+  background-color: #d6bba7;
   padding: 30px;
   text-align: center;
 }
-.contact ul{
+.contact ul {
   display: flex;
 }
-.contact ul li{
+.contact ul li {
   margin: 20px;
   list-style: none;
 }
-footer{
+footer {
   background-color: #000;
   color: #fff;
   text-align: center;
   padding: 20px;
 }
 
-  @media screen and (min-width : 993px) {
-    .card{
-      display: flex;
-      flex-direction: row;
-    }
-    .about .img-about img{
-      box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
-  -moz-box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
-    }
-    .desktop-none{
-      display: none;
-    }
+@media screen and (min-width: 993px) {
+  .card {
+    display: flex;
+    flex-direction: row;
   }
-  @media screen and (max-width:993px) {
-    .mobile-none{
-    }
-    .mobile-none img{
-      display: none;
-      visibility: hidden;
-    }
+  .about .img-about img {
+    box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -31px 28px 0px 0px rgba(255, 255, 255, 1);
   }
+  .desktop-none {
+    display: none;
+  }
+}
+@media screen and (max-width: 993px) {
+  .mobile-none {
+  }
+  .mobile-none img {
+    display: none;
+    visibility: hidden;
+  }
+}
