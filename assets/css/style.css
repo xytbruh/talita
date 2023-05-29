@@ -68,6 +68,8 @@ p {
 nav {
   background-color: #fff;
   height: 80px;
+  padding: 8px 0;
+
   z-index: 999;
 }
 nav.sticky-navbar {
