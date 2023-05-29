@@ -66,8 +66,26 @@ p {
   border-radius: 10px;
 }
 nav {
-  background-color: #f3dbcd;
+  background-color: #fff;
   height: 80px;
+  z-index: 999;
+}
+nav.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 0;
+  transition: all 500ms ease;
+}
+
+nav.sticky-navbar.scrolling {
+  background: #f3dbcd;
+  padding: 0;
+}
+
+nav.sticky-navbar.scrolling ul li a {
+  color: #eee;
 }
 .navbar-nav li a .active {
   color: #f36b6f !important;
