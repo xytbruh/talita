@@ -65,6 +65,11 @@ p {
 
   border-radius: 10px;
 }
+header{
+  background-color: #f3dbcd;
+  height: 80px;
+  position: relative;
+}
 nav {
   background-color: #f3dbcd;
   height: 80px;
