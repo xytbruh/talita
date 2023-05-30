@@ -57,12 +57,15 @@
     });
   });
   const stickyNavbar = document.querySelector("nav.sticky-navbar");
-  
+
   document.addEventListener("scroll", () => {
     if (window.scrollY > 36) {
       stickyNavbar.classList.add("scrolling");
     } else {
       stickyNavbar.classList.remove("scrolling");
     }
+  });
+  AOS.init({
+    duration: 1000,
   });
 })(window.jQuery);
